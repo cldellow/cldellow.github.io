@@ -4,15 +4,28 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I'm a cyclist in snowy Kitchener, Ontario. I enjoy functional programming and mucking with data.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+# Education
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+_2003–2008_. [Bachelor of Software Engineering](https://uwaterloo.ca/software-engineering/), University of Waterloo.
 
+# Work
 
-[jekyll-organization]: https://github.com/jekyll
+_2014–present_. Scala/Clojure developer at Sortable. Ad tech integrations with all the major vendors. Big data ingestion, storage and query frameworks built on Hive, Spark and Presto.
+
+_2011–2014_. Scala developer at Snapsort Inc. Consumer recommendation engine website. Web crawling at scala. Running infrastructure on AWS. Data modelling.
+
+_2008–2010_. C#/C++ developer at Microsoft Corp. Contributed authentication frameworks to the Windows Identity Framework in .NET and Active Directory Federation Services 2.0.
+
+_2006–2008 (internships)_. C#/C++ developer at Microsoft Corp.
+
+_<span>2005</span>_. VB.NET software consulting to school boards.
+
+_2003-2004 (internships)_. Java developer at Arius Software Corp.
+
+# Miscellaneous
+
+_Patents_. As someone with a pulse in a design meeting at a litigious megacorp, the US government [issued me a patent](https://patents.google.com/?inventor=Colin+Leslie+Dellow).
+
+_Stanford NLP_. I contributed a patch to the Stanford part of speech tagger that improved its tagging throughput by 50% for English languages, and 300-400% for non-English languages.
