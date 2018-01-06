@@ -16,7 +16,7 @@
 title: Colin Dellow
 email: cldellow@cldellow.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Random thoughts, mostly on technical topics.
+  Random thoughts, mostly about technical topics.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: cldellow
