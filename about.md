@@ -14,7 +14,7 @@ _2003–2008_. [Bachelor of Software Engineering](https://uwaterloo.ca/software-
 
 _2014–present_. Scala/Clojure developer at Sortable. Ad tech integrations with all the major vendors. Big data ingestion, storage and query frameworks built on Hive, Spark and Presto.
 
-_2011–2014_. Scala developer at Snapsort Inc. Consumer recommendation engine website. Web crawling at scala. Running infrastructure on AWS. Data modelling.
+_2011–2014_. Scala developer at Snapsort Inc. Consumer recommendation engine website. Web crawling at scale. Running infrastructure on AWS. Data modelling.
 
 _2008–2010_. C#/C++ developer at Microsoft Corp. Contributed authentication frameworks to the Windows Identity Framework in .NET and Active Directory Federation Services 2.0.
 
