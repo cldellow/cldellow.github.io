@@ -26,6 +26,6 @@ _2003-2004 (internships)_. Java developer at Arius Software Corp.
 
 # Miscellaneous
 
-_Patents_. As someone with a pulse in a design meeting at a litigious megacorp, the US government [issued me a patent](https://patents.google.com/?inventor=Colin+Leslie+Dellow).
+_Patents_. Software patents are a blight on the industry for the most part. The [one I was granted](https://patents.google.com/?inventor=Colin+Leslie+Dellow) is definitely part of the blight.
 
 _Stanford NLP_. I contributed a patch to the Stanford part of speech tagger that improved its tagging throughput by 50% for English languages, and 300-400% for non-English languages.
