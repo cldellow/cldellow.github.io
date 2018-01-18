@@ -24,8 +24,13 @@ _<span>2005</span>_. VB.NET software consulting to school boards.
 
 _2003-2004 (internships)_. Java developer at Arius Software Corp.
 
+# Open Source
+
+_Manu_. I created a library, command-line tools and web server for manipulating and serving timeseries data. It's called [Manu](https://github.com/cldellow/manu).
+
+_Stanford NLP_. I contributed a patch to the Stanford part of speech tagger that improved its tagging throughput by 50% for English languages, and 300-400% for non-English languages.
+
 # Miscellaneous
 
 _Patents_. Software patents are a blight on the industry for the most part. The [one I was granted](https://patents.google.com/?inventor=Colin+Leslie+Dellow) is definitely part of the blight.
 
-_Stanford NLP_. I contributed a patch to the Stanford part of speech tagger that improved its tagging throughput by 50% for English languages, and 300-400% for non-English languages.

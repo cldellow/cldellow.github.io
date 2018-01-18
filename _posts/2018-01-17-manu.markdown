@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "Manu: Mostly archived, not updated"
+date:   2018-01-17 20:36:10 -0500
+categories: manu
+---
+
+I'm officially an open source author!
+
+I'll write a post about the specific thing later--for now, you can learn about
+it at its GitHub [project page](https://github.com/cldellow/manu).
+
+Creating and publishing this library was really refreshing. The ecosystem for
+open source is full of really valuable things, given away for free.
+It's easy to take it for granted.
+
+In the course of this project, I used:
+
+* [JavaFastPFOR](https://github.com/lemire/JavaFastPFOR/), for integer compression
+* [Spark](https://github.com/perwendel/spark), for a web server framework
+* [SQLite](https://sqlite.org/) and [sqlite-jdbc](https://github.com/xerial/sqlite-jdbc), for metadata storage
+
+And, of course, the usual open source suspects: Ubuntu, vim, maven.
+
+Even more amazing to me are the free services, which require an active ops team
+to maintain:
+
+* [GitHub](https://github.com/cldellow/manu), for hosting the code
+* [Travis](https://travis-ci.org/cldellow/manu), for continuous integrations
+* [Codecov](https://codecov.io/gh/cldellow/manu), for code coverage reporting
+* The [Central Repository](http://central.sonatype.org/), for hosting the compiled product
+
+Cumulatively, these things represents hundreds of thousands of hours of effort
+by skilled practitioners. And they're available for me and you to use at no cost.
+
+That's amazing. It's nice to be reminded of it.
