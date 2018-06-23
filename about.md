@@ -26,6 +26,8 @@ _2003-2004 (internships)_. Java developer at Arius Software Corp.
 
 # Open Source
 
+_Parquet support in SQLite_. I wrote a [virtual table extension for SQLite](https://github.com/cldellow/sqlite-parquet-vtable) that enables reading data from Parquet files.
+
 _Manu_. I created a library, command-line tools and web server for manipulating and serving timeseries data. It's called [Manu](https://github.com/cldellow/manu).
 
 _Stanford NLP_. I contributed a patch to the Stanford part of speech tagger that improved its tagging throughput by 50% for English languages, and 300-400% for non-English languages.
