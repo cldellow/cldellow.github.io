@@ -2,7 +2,9 @@
 layout: post
 title:  "Scraping Wikipedia using Bash"
 date:   2018-01-06 12:36:10 -0500
-categories: bash
+author: cldellow
+categories:
+  - bash
 ---
 
 _You may also want to read [graphing age distribution by gender of Oscar nominees]({% post_url 2018-01-06-graphing-age-distribution-by-gender-of-oscar-nominees %})._

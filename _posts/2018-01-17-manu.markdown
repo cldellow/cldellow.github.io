@@ -2,7 +2,9 @@
 layout: post
 title:  "Manu: Mostly archived, not updated"
 date:   2018-01-17 20:36:10 -0500
-categories: manu
+author: cldellow
+tags:
+  - manu
 ---
 
 I'm officially an open source author!

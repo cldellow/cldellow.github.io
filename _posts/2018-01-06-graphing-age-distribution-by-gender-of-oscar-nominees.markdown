@@ -2,7 +2,9 @@
 layout: post
 title:  "Graphing Age Distribution by Gender of Oscar Nominees"
 date:   2018-01-06 12:36:10 -0500
-categories: vega-lite
+author: cldellow
+tags:
+  - vega-lite
 ---
 
 _You may also want to read [scraping Wikipedia using bash]({% post_url 2018-01-06-scraping-wikipedia-using-bash %})._
