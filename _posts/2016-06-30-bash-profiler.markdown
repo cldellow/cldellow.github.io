@@ -10,6 +10,8 @@ tags:
 
 _This was originally published on the [Sortable dev blog](https://dev.sortable.com/)._
 
+_2018-06-24: Someone has drawn my attention to the [Poor Man's Profiler](https://poormansprofiler.org/), which is a work of art._
+
 Imagine that you've inherited this program:
 
 ```scala
