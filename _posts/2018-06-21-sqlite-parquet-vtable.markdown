@@ -222,21 +222,33 @@ One downside of Parquet files is that they're usually used in "big data" context
 
 Let's create a Parquet file from our CSV! To begin, we'll treat every column as a string. I created it with row groups of size 10,000, hoping that would allow us to efficiently query for a given city, since a city's 2,247 entries should be usually be entirely contained within a single row group.
 
-It results in a 77 MB file. That's 6% the size of the CSV! But is it fast to query?
+It results in a 42 MB file. That's almost 3% the size of the CSV! But is it fast to query?
+
+We'll change the query a bit -- the original one is optimized for Postgres's treatment of CTEs.
 
 ```
 sqlite> .load parquet/libparquet.so
 sqlite> CREATE VIRTUAL TABLE census USING parquet('./census.parquet');
-sqlite> WITH inputs AS (
+sqlite> WITH total AS (
   SELECT
     geo_name,
-    CASE WHEN profile_id = 1930 THEN 'total' ELSE 'cyclist' END AS mode,
     female,
     male
   FROM census
-  WHERE profile_id IN ( '1930', '1935') AND
+  WHERE
+    geo_name in ('Dawson Creek', 'Victoria', 'Kitchener') AND
+    csd_type_name = 'CY' AND
+    profile_id = '1930'
+), cyclist as (
+  SELECT
+    geo_name,
+    female,
+    male
+  FROM census
+  WHERE
+    geo_name in ('Dawson Creek', 'Victoria', 'Kitchener') AND
     csd_type_name = 'CY' AND 
-    geo_name IN ('Victoria', 'Dawson Creek', 'Kitchener')
+    profile_id = '1935'
 )
 SELECT
   total.geo_name,
@@ -244,17 +256,16 @@ SELECT
   cyclist.female,
   100.0 * cyclist.male / total.male,
   100.0 * cyclist.female / total.female
-FROM inputs AS total
-JOIN inputs AS cyclist USING (geo_name)
-WHERE total.mode = 'total' AND cyclist.mode = 'cyclist';
+FROM total
+JOIN cyclist USING (geo_name)
 
 Dawson Creek|25|0|0.863557858376511|0.0
 Kitchener|905|280|1.51299841176962|0.514563998897363
 Victoria|2650|2130|12.5741399762752|9.73047053449064
-Run Time: real 0.101 user 0.100000 sys 0.000000
+Run Time: real 0.058 user 0.054000 sys 0.000000
 ```
 
-100ms! Not as fast as Postgres with an index, but not bad considering how much less disk space it uses.
+60ms! Not as fast as Postgres with an index, but not bad considering how much less disk space it uses.
 
 ### Strongly typed
 
