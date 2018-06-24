@@ -26,11 +26,13 @@ _2003-2004 (internships)_. Java developer at Arius Software Corp.
 
 # Open Source
 
-_Parquet support in SQLite_. I wrote a [virtual table extension for SQLite](https://github.com/cldellow/sqlite-parquet-vtable) that enables reading data from Parquet files.
+_[Parquet support in SQLite](https://github.com/cldellow/sqlite-parquet-vtable)_: I wrote a virtual table extension for SQLite that enables reading data from Parquet files. Read more in this [blog post](https://cldellow.com/2018/06/22/sqlite-parquet-vtable.html).
 
-_Manu_. I created a library, command-line tools and web server for manipulating and serving timeseries data. It's called [Manu](https://github.com/cldellow/manu).
+_[csv2parquet](https://github.com/cldellow/csv2parquet)_: A very thin wrapper around pyarrow to make it easy to convert CSV files to Parquet files.
 
-_Stanford NLP_. I contributed a patch to the Stanford part of speech tagger that improved its tagging throughput by 50% for English languages, and 300-400% for non-English languages.
+_[Manu](https://github.com/cldellow/manu)_: A Java library, command-line tools and web server for manipulating and serving timeseries data.
+
+_Stanford NLP_: I contributed a patch to the Stanford part of speech tagger that improved its tagging throughput by 50% for English languages, and 300-400% for non-English languages.
 
 # Miscellaneous
 
