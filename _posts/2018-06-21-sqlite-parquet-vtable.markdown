@@ -220,7 +220,7 @@ One downside of Parquet files is that they're usually used in "big data" context
 
 ### Stringly typed
 
-Let's create a Parquet file from our CSV! To begin, we'll treat every column as a string. I created it with row groups of size 10,000, hoping that would allow us to efficiently query for a given city, since a city's 2,247 entries should be usually be entirely contained within a single row group.
+Let's create a Parquet file from our CSV! To begin, we'll treat every column as a string. I created it with row groups of size 20,000, hoping that would allow us to efficiently query for a given city, since a city's 2,247 entries should be usually be entirely contained within a single row group. I used the brotli compression codec, which I found gave slightly better compression than Snappy while not sacrificing query speed.
 
 It results in a 42 MB file. That's almost 3% the size of the CSV! But is it fast to query?
 
