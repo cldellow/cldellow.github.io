@@ -194,6 +194,21 @@ This creates a 1235 MB SQLite DB file. D'oh. And running our query against it ta
 
 This is nicer than Postgres in that it's more self-contained and doesn't require us to administer a Postgres cluster, but it uses about the same amount of disk space.
 
+### SQLite database, indexed + squashed
+
+Our intuition is that the SQLite database is very compressible, since it still has all the repetitive data. Since this is for a read-only webapp, let's try using [SquashFS](https://en.wikipedia.org/wiki/SquashFS) to transparently compress it.
+
+```
+cldellow@furfle:~$ mkdir census
+cldellow@furfle:~$ mv census.sqlite census
+cldellow@furfle:~$ mksquashfs census/ census.squashfs -comp xz
+[ ... buncha spam ... ]
+cldellow@furfle:~$ mkdir /mnt/census
+cldellow@furfle:~$ mount census.squashfs /mnt/dir -t squashfs -o loop
+```
+
+The compressed file is 185 MB. The first query takes about 130 ms, which is not bad! It's a bit slower because it has to uncompress the
+necessary pages from the file. Subsequent queries are about 30 ms, because the pages are in the kernel buffer cache.
 
 ## Parquet
 
