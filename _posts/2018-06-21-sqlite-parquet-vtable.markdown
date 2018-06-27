@@ -262,10 +262,10 @@ JOIN cyclist USING (geo_name)
 Dawson Creek|25|0|0.863557858376511|0.0
 Kitchener|905|280|1.51299841176962|0.514563998897363
 Victoria|2650|2130|12.5741399762752|9.73047053449064
-Run Time: real 0.058 user 0.054000 sys 0.000000
+Run Time: real 0.038 user 0.040000 sys 0.000000
 ```
 
-60ms! Not as fast as Postgres with an index, but not bad considering how much less disk space it uses.
+40ms! Not as fast as Postgres with an index, but not bad considering how much less disk space it uses.
 
 ### Strongly typed
 
