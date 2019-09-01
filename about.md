@@ -12,7 +12,7 @@ _2003–2008_. [Bachelor of Software Engineering](https://uwaterloo.ca/software-
 
 # Work
 
-_2014–present_. Scala/Clojure developer at Sortable. Ad tech integrations with all the major vendors. Big data ingestion, storage and query frameworks built on Hive, Spark and Presto.
+_2014–2019_. Scala/Clojure developer at Sortable. Ad tech integrations with all the major vendors. Big data ingestion, storage and query frameworks built on Hive, Spark and Presto.
 
 _2011–2014_. Scala developer at Snapsort Inc. Consumer recommendation engine website. Web crawling at scale. Running infrastructure on AWS. Data modelling.
 
