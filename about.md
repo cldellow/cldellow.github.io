@@ -22,7 +22,7 @@ _2006–2008 (internships)_. C#/C++ developer at Microsoft Corp.
 
 _<span>2005</span>_. VB.NET software consulting to school boards.
 
-_2003-2004 (internships)_. Java developer at Arius Software Corp.
+_2003–2004 (internships)_. Java developer at Arius Software Corp.
 
 # Open Source
 
