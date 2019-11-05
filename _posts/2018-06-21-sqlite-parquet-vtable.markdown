@@ -9,6 +9,9 @@ tags:
   - parquet
 ---
 
+_Hello, reader! If you work with big files and S3, you may find my [s3patch](https://s3patch.com) utility useful._
+
+---
 _This blog post explains the motivation for the creation of a SQLite virtual table extension for Parquet files. Go to [cldellow/sqlite-parquet-vtable](https://github.com/cldellow/sqlite-parquet-vtable) if you just want the code._
 
 I was playing around with a project to visualize data from the 2016 Canada census. The raw data from Stats Canada is a 1291 MB CSV [^1]. The CSV has 12,000,000 rows, each capturing metrics for men and women in a census area. Over 5,000 census areas are covered, with 2,200 dimensions in each. I wanted to find out what percentage of people travelled by bicycle in three particular cities.
