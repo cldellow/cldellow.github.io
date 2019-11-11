@@ -1,4 +1,6 @@
 #!/bin/bash
 
 set -euo pipefail
+# use Ruby 2.6.2
+export PATH=/usr/local/bin:$PATH
 exec bundle exec jekyll serve
