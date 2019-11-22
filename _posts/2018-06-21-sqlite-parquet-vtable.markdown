@@ -11,6 +11,8 @@ tags:
 
 _Hello, reader! If you work with big files and S3, you may find my [s3patch](https://s3patch.com) utility useful._
 
+_Or, hire me to help you with your data problems. [Email me](mailto:cldellow@gmail.com) to see if I have availability._
+
 ---
 _This blog post explains the motivation for the creation of a SQLite virtual table extension for Parquet files. Go to [cldellow/sqlite-parquet-vtable](https://github.com/cldellow/sqlite-parquet-vtable) if you just want the code._
 
