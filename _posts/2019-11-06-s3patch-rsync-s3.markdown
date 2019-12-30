@@ -17,7 +17,7 @@ meant a several minute delay every time we wanted to push a change.
 Worse, the Internet was _unusable_ while the upload was happening.
 
 I wondered if there was something like rsync for S3, but couldn't find
-anything. So I made [s3patch](https://s3patch.com/). It uses xdelta3
+anything. So I made a tool for [faster S3 uploads](https://s3patch.com/), s3patch. It uses xdelta3
 to ship diffs to servers in AWS, which then reconstitute the final thing
 and upload it to S3. This tool is probably most helpful to people
 working on questionable wifi, so home-based folks and digital nomads
