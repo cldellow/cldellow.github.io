@@ -1,0 +1,33 @@
+---
+title:  "SyncWith: get your API data into Google Sheets"
+author: cldellow
+tags:
+  - api
+  - google sheets
+  - syncwith
+---
+
+It's crazy how much of the day-to-day job of a knowledge worker revolves around copying and
+pasting.
+
+Developer? You probably copy and paste from StackOverflow. It's [a whole thing](https://stackoverflow.blog/2021/03/31/the-key-copy-paste/).
+
+White-collar worker? You probably shuffle data into and out of reports and dashboards.
+
+Heck, even [this BC Supreme Court judge says copying and pasting became an integral part
+of managing his caseload](https://www.youtube.com/watch?v=K1dmer7gf1U).
+
+In every job I have worked, I have had to write glue code to call APIs and dump
+the results into CSVs. I have copied and pasted stuff from crappy web portals
+into Google Sheets, then painstakingly lined up the data to do some analysis.
+The last company I worked at built an entire business around a subset of this
+pain.
+
+So it's probably no surprise that I think there's a lot of opportunity to make
+APIs more accessible and less painful for many, many people. And that's what
+[SyncWith](https://syncwith.com/) is trying to do. Call any API, for example
+[Google Analytics](https://syncwith.com/api/google-analytics-v3), see your data,
+export it into Google Sheets, and keep it up to date, with no ongoing effort
+on your part.
+
+Give it a try!
