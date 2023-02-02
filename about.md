@@ -12,6 +12,8 @@ _2003–2008_. [Bachelor of Software Engineering](https://uwaterloo.ca/software-
 
 # Work
 
+_2021-present_. TypeScript developer at [SyncWith](https://syncwith.com/). Founder building data tools to enable non-technical business staff to get their key business data into Google Sheets and Looker Studio.
+
 _2014–2019_. Scala/Clojure developer at Sortable. Member of the founding team of 5, helped the company grow to ~80 people, of which ~40 were technical staff. Ad tech integrations with all the major vendors. Big data ingestion, storage and query frameworks built on Hive, Spark and Presto.
 
 _2011–2014_. Scala developer at Snapsort Inc. Consumer recommendation engine website. Web crawling at scale. Running infrastructure on AWS. Data modelling.
