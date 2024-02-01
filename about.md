@@ -28,6 +28,10 @@ _2003–2004 (internships)_. Java developer at Arius Software Corp.
 
 # Open Source
 
+_[Hiker Atlas](https://github.com/hikeratlas)_ (2024): Like AllTrails, but worse.
+
+_[tilemaker](https://github.com/systemed/tilemaker)_ (2023): Contributed a series of performance and functional improvements to an OpenStreetMap vector tile generator. Runtime and memory usage were dramatically improved, enabling people to build planet-scale basemaps on consumer-grade computers.
+
 _[datasette-parquet](https://github.com/cldellow/datasette-parquet)_ (2023): Read Parquet files and DuckDB database files in Datasette.
 
 _[datasette-ui-extras](https://github.com/cldellow/datasette-ui-extras)_ (2023): Opinionated improvements to the UI of Datasette, and support for additional kinds of facets.
