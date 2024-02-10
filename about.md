@@ -28,7 +28,7 @@ _2003–2004 (internships)_. Java developer at Arius Software Corp.
 
 # Open Source
 
-_[Hiker Atlas](https://github.com/hikeratlas)_ (2024): Like AllTrails, but worse.
+_[Hiker Atlas](https://www.hikeratlas.com/)_ (2024): Like AllTrails, but worse.
 
 _[tilemaker](https://github.com/systemed/tilemaker)_ (2023): Contributed a series of performance and functional improvements to an OpenStreetMap vector tile generator. Runtime and memory usage were dramatically improved, enabling people to build planet-scale basemaps on consumer-grade computers.
 
