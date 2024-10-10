@@ -28,6 +28,8 @@ _2003–2004 (internships)_. Java developer at Arius Software Corp.
 
 # Open Source
 
+_[tile-smush](https://www.github.com/hikeratlas/tile-smush/)_ (2024): `tile-smush`, a specialized `tile-join` to merge `.mbtiles` files 5x faster. Read more in this [blog post](https://www.hikeratlas.com/blog/tile-smush).
+
 _[Hiker Atlas](https://www.hikeratlas.com/)_ (2024): Like AllTrails, but worse.
 
 _[tilemaker](https://github.com/systemed/tilemaker)_ (2023): Contributed a series of performance and functional improvements to an OpenStreetMap vector tile generator. Runtime and memory usage were dramatically improved, enabling people to build planet-scale basemaps on consumer-grade computers.
