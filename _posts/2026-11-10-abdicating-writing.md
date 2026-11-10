@@ -29,7 +29,7 @@ For one-to-many communication:
 
 For one-to-one communication:
 
-- LLMs should never draft. It violates the social norms of personal communication, and [can lead to this ridiculous outcome](https://marketoonist.com/2023/03/ai-written-ai-read.html):
+- LLMs should never draft. It violates the social norms of _personal_ communication, and [can lead to this ridiculous outcome](https://marketoonist.com/2023/03/ai-written-ai-read.html):
 ![A cartoon about AI-written content](https://marketoonist.com/wp-content/uploads/2023/03/230327.n.aiwritten.jpg)
 *Cartoon by [Tom Fishburne, Marketoonist](https://marketoonist.com/)*
 - LLMs as reviewers that provide critiques are OK, but shouldn't be directly editing your content.
