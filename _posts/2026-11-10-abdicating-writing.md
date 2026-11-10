@@ -34,6 +34,6 @@ For one-to-one communication:
 *Cartoon by [Tom Fishburne, Marketoonist](https://marketoonist.com/)*
 - LLMs as reviewers that provide critiques are OK, but shouldn't be directly editing your content.
 
-Oxide Computer Company's [Using LLMs at Oxide](https://rfd.shared.oxide.computer/rfd/0576) policy seems similar, although it further differentiates one-to-many communication into public writing that represents the brand (don't use LLMs) and operational writing is reference material (LLM use is OK). I consider the blog posts on Hiker Atlas to fall in their "operational writing" category more than their "public writing" category.
+Oxide Computer Company's [Using LLMs at Oxide](https://rfd.shared.oxide.computer/rfd/0576) policy seems similar, although it further differentiates one-to-many communication into public writing that represents the brand (don't use LLMs) and operational writing that is reference material (LLM use is OK). I consider the blog posts on Hiker Atlas to fall in their "operational writing" category more than their "public writing" category.
 
 [^1]: Well. "I". Claude. Whoever. Whatever?
